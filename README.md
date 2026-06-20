@@ -1,11 +1,11 @@
-# py-inspector
+# PeakScope
 
 All-in-one Python profiler.
 
 ## Installation
 
 ```bash
-pip install py-inspector
+pip install PeakScope
 ```
 
 ## License

@@ -3,14 +3,14 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "py-inspector"
-version = "0.1.0"
+name = "PeakScope"
+version = "0.0.1"
 description = "All-in-one Python profiler."
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.9"
 authors = [
-    { name = "pyinspector contributors" },
+    { name = "PeakScope contributors" },
 ]
 keywords = ["profiler", "performance", "memory", "cpu"]
 classifiers = [
@@ -20,11 +20,10 @@ classifiers = [
     "Topic :: Software Development :: Debuggers",
 ]
 dependencies = [
-    "psutil>=5.9.0",
 ]
 
 [project.urls]
 Homepage = "https://github.com/InnoSoft-Company/PeakScope"
 
 [tool.hatch.build.targets.wheel]
-packages = ["pyinspector"]
+packages = ["PeakScope"]
